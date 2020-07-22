@@ -1,0 +1,212 @@
+name: migrena_kompas
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  flutter_statusbarcolor:
+  video_player:
+  table_calendar:
+  custom_switch_button:
+  intl:
+  carousel_slider: 
+  passcode:
+  pin_code_fields:
+  charts_flutter:
+  percent_indicator:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/images/main_logo.png
+   - assets/images/powered_by.png
+   - assets/images/home_header.png
+   - assets/images/flower.png
+   - assets/images/flower1.png
+   - assets/images/flower2.png
+   - assets/images/flower3.png
+   - assets/images/gul.png
+   - assets/images/kana.png
+   - assets/images/tera.png
+   - assets/images/i1-3.png
+   - assets/images/i4-6.png
+   - assets/images/i7-9.png
+   - assets/images/i10.png
+   - assets/images/apple.png
+   - assets/images/apple1.png
+   - assets/images/apple2.png
+   - assets/images/calendar.png
+   - assets/images/calendar1.png
+   - assets/images/can.png
+   - assets/images/can1.png
+   - assets/images/cloud.png
+   - assets/images/cloud1.png
+   - assets/images/cloud2.png
+   - assets/images/cutlery.png
+   - assets/images/cutlery1.png
+   - assets/images/emoji.png
+   - assets/images/emoji1.png
+   - assets/images/face.png
+   - assets/images/face1.png
+   - assets/images/glass.png
+   - assets/images/glass1.png
+   - assets/images/glass2.png
+   - assets/images/reload.png
+   - assets/images/reload1.png
+   - assets/images/sound.png
+   - assets/images/sound1.png
+   - assets/images/add.png
+   - assets/images/add1.png
+   - assets/images/cancel.png
+   - assets/images/bubble.png
+   - assets/images/bubble1.png
+   - assets/images/group.png
+   - assets/images/group1.png
+   - assets/images/load.png
+   - assets/images/load1.png
+   - assets/images/slow.png
+   - assets/images/slow1.png
+   - assets/images/union.png
+   - assets/images/union1.png
+   - assets/images/zzz.png
+   - assets/images/zzz1.png
+   - assets/images/addition.png
+   - assets/images/subtract.png
+   - assets/images/dairyIcon.png
+   - assets/images/mig_type.png
+   - assets/images/pain_type.png
+   - assets/images/timer.png
+   - assets/images/pill_num.png
+   - assets/images/goalIcon.png
+   - assets/images/G1.png
+   - assets/images/G2.png
+   - assets/images/G3.png
+   - assets/images/G4.png
+   - assets/images/G5.png
+   - assets/images/G6.png
+   - assets/images/G7.png
+   - assets/images/G8.png
+   - assets/images/G9.png
+   - assets/images/G10.png
+   - assets/images/G11.png
+   - assets/images/G12.png
+   - assets/images/G13.png
+   - assets/images/G14.png
+   - assets/images/G15.png
+   - assets/images/G16.png
+   - assets/images/G17.png
+   - assets/images/treatIcon.png
+   - assets/images/b1.png
+   - assets/images/b2.png
+   - assets/images/b3.png
+   - assets/images/b4.png
+   - assets/images/b5.png
+   - assets/images/u1.png
+   - assets/images/u2.png
+   - assets/images/u3.png
+   - assets/images/u4.png
+   - assets/images/u5.png
+   - assets/images/u6.png
+   - assets/images/u7.png
+   - assets/images/add_record.png
+   - assets/images/button_shade.png
+   - assets/images/button_add.png
+   - assets/images/reportIcon.png
+   - assets/images/diary_edit.png
+   - assets/images/diary_cancel.png
+   - assets/images/diary_done.png
+   - assets/images/injection.png
+   - assets/images/search_inj.png
+   - assets/images/drinking_water.png
+   - assets/images/medicines.png
+   - assets/images/idea.png
+   - assets/images/lock.png
+   - assets/images/export.png
+   - assets/images/slider.png
+   - assets/images/ajovy_logo.png
+   - assets/images/bam_lal.png
+   - assets/images/dain_nil.png
+   - assets/images/bam_nil.png
+   - assets/images/dain_lal.png
+   - assets/images/calendar_dark.png
+   - assets/images/head_dark.png
+   - assets/images/first_aid_kit_icon.png
+   - assets/images/add_phy.png
+   - assets/images/back.png
+   - assets/images/back1.png
+   - assets/images/back2.png
+   - assets/images/back3.png
+   - assets/images/bell.png
+   - assets/images/Eback.png
+   - assets/images/people.png
+   - assets/images/Ground.png
+   - assets/images/pain.png
+   - assets/images/injection1.png
+   - assets/images/timer1.png
+   - assets/images/tips.png
+   - assets/images/dairy.png
+   - assets/images/treat.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: open-sans
+      fonts:
+        - asset: assets/fonts/open-sans/OpenSans-Bold.ttf
+          weight: 900
+        - asset: assets/fonts/open-sans/OpenSans-Regular.ttf
+          weight: 400
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
